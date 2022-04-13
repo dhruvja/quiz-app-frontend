@@ -1,7 +1,7 @@
 import React from 'react';
 import {Menu,Segment,Sidebar,Icon} from 'semantic-ui-react';
 import {Link,Redirect} from 'react-router-dom';
-import endpoint from './endpoint'
+import endpoint from '../endpoint'
 
 
 

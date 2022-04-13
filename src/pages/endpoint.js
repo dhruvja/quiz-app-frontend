@@ -1,3 +1,3 @@
-const endpoint = "https://localhost:8000";
+const endpoint = "https://hidden-crag-33098.herokuapp.com";
 
 module.exports = endpoint;

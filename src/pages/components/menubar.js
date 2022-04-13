@@ -1,7 +1,7 @@
 import React from 'react';
 import {Menu,Segment} from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
-import endpoint from './endpoint'
+import endpoint from '../endpoint'
 
 
 function handleItemClick(){

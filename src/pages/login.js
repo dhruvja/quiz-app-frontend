@@ -35,6 +35,7 @@ class Login extends React.Component{
 
     handleSubmit(e){
         e.preventDefault();
+        console.log(this.state.user)
         fetch(`${endpoint}/api/token/`,{
             method: 'POST',
             headers: {
