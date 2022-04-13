@@ -201,7 +201,7 @@ class Quiz extends React.Component {
             { this.state.submitted &&
                 <Redirect to={{
                 pathname: "/results",
-                state: {joinquiz_id: this.props.location.state.joinquiz_id,show: true},
+                state: {joinquiz_id: this.props.location.state.joinquiz_id,show: false},
                 }} 
             />
             }
