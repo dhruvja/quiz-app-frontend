@@ -163,7 +163,7 @@ class Search extends React.Component {
                                                         </Button>
                                                         <Link to={{
                                                                     pathname: "/results",
-                                                                    state: {joinquiz_id: quiz.id},
+                                                                    state: {joinquiz_id: quiz.id, show: true},
                                                                     }}  ><Button fluid inverted color='blue'
                                                         >
                                                             Results
