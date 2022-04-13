@@ -26,7 +26,7 @@ class Search extends React.Component {
         var name = "access"
         let token = document.cookie.match(`(?:(?:^|.*; *)${name} *= *([^;]*).*$)|^.*$`)[1]
         console.log(token)
-        fetch(`${endpoint}api/joinedquizzes`,{
+        fetch(`${endpoint}/api/joinedquizzes`,{
             headers:{
                 'Authorization': `Bearer ${token}`
             }
